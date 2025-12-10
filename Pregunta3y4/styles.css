@@ -1,0 +1,65 @@
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.navbar {
+  background: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.navbar .nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+.navbar .nav-menu .menu-btn {
+  background: #e5e7eb;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+.navbar .nav-menu .menu-btn:hover {
+  background: #3b82f6;
+  color: white;
+  transform: scale(1.06);
+}
+
+.banner {
+  background: #3b82f6;
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.banner h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.banner p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.banner-anim {
+  animation: fadeSlideUp 1.2s ease-out forwards;
+}/*# sourceMappingURL=styles.css.map */
