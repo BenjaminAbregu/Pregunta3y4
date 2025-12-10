@@ -1,15 +1,8 @@
-// -------------------------------------------
-// VARIABLES
-// -------------------------------------------
 
-$primary: #3b82f6;     // azul Tailwind
+$primary: #3b82f6;     
 $gray-light: #e5e7eb;
 $dark: #1f2937;
 $transition: 0.3s ease;
-
-// -------------------------------------------
-// MIXINS
-// -------------------------------------------
 
 @mixin smooth-transition {
   transition: background-color $transition, transform $transition, color $transition;
@@ -21,10 +14,6 @@ $transition: 0.3s ease;
   align-items: center;
 }
 
-// -------------------------------------------
-// ANIMACIONES
-// -------------------------------------------
-
 @keyframes fadeSlideUp {
   0% {
     opacity: 0;
@@ -35,10 +24,6 @@ $transition: 0.3s ease;
     transform: translateY(0);
   }
 }
-
-// -------------------------------------------
-// NAVBAR
-// -------------------------------------------
 
 .navbar {
   background: white;
@@ -78,9 +63,6 @@ $transition: 0.3s ease;
   }
 }
 
-// -------------------------------------------
-// BANNER
-// -------------------------------------------
 
 .banner {
   background: $primary;
@@ -104,3 +86,4 @@ $transition: 0.3s ease;
 .banner-anim {
   animation: fadeSlideUp 1.2s ease-out forwards;
 }
+
